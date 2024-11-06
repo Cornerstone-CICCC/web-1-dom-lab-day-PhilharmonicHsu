@@ -63,43 +63,43 @@ body {
 
     table {
       width: 100%;
-    }
 
-    thead {
-      background-color: #DDDDDD;
+      thead {
+        background-color: #DDDDDD;
 
-      tr th {
-        &:first-of-type {
-          padding: .5rem;
+        tr th {
+          &:first-of-type {
+            padding: .5rem;
+            text-align: center;
+          }
+
+          padding: 0;
           text-align: center;
         }
-
-        padding: 0;
-        text-align: center;
       }
-    }
 
-    tbody {
-      tr {
-        .avatar {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 48px;
-          margin: .5rem;
+      tbody {
+        tr {
+          .avatar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 48px;
+            margin: .5rem;
 
-          img {
-            height: 3rem;
-            width: 3rem;
+            img {
+              height: 3rem;
+              width: 3rem;
+            }
           }
-        }
 
-        &:nth-child(odd) {
-          background-color: #EEEEEE;
-        }
+          &:nth-child(odd) {
+            background-color: #EEEEEE;
+          }
 
-        &:nth-child(even) {
-          background-color: #B8B8B8;
+          &:nth-child(even) {
+            background-color: #B8B8B8;
+          }
         }
       }
     }

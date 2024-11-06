@@ -58,32 +58,32 @@ body {
 .container #employees table {
   width: 100%;
 }
-.container #employees thead {
+.container #employees table thead {
   background-color: #DDDDDD;
 }
-.container #employees thead tr th {
+.container #employees table thead tr th {
   padding: 0;
   text-align: center;
 }
-.container #employees thead tr th:first-of-type {
+.container #employees table thead tr th:first-of-type {
   padding: 0.5rem;
   text-align: center;
 }
-.container #employees tbody tr .avatar {
+.container #employees table tbody tr .avatar {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 48px;
   margin: 0.5rem;
 }
-.container #employees tbody tr .avatar img {
+.container #employees table tbody tr .avatar img {
   height: 3rem;
   width: 3rem;
 }
-.container #employees tbody tr:nth-child(odd) {
+.container #employees table tbody tr:nth-child(odd) {
   background-color: #EEEEEE;
 }
-.container #employees tbody tr:nth-child(even) {
+.container #employees table tbody tr:nth-child(even) {
   background-color: #B8B8B8;
 }
 
