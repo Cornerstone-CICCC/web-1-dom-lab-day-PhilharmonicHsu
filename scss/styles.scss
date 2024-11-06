@@ -23,6 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 50%;
 
     fieldset {
       display: flex;
@@ -52,6 +53,53 @@ body {
         button {
           flex: 1;
           padding: .25rem;
+        }
+      }
+    }
+  }
+
+  #employees {
+    width: 50%;
+
+    table {
+      width: 100%;
+    }
+
+    thead {
+      background-color: #DDDDDD;
+
+      tr th {
+        &:first-of-type {
+          padding: .5rem;
+          text-align: center;
+        }
+
+        padding: 0;
+        text-align: center;
+      }
+    }
+
+    tbody {
+      tr {
+        .avatar {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 48px;
+          margin: .5rem;
+
+          img {
+            height: 3rem;
+            width: 3rem;
+          }
+        }
+
+        &:nth-child(odd) {
+          background-color: #EEEEEE;
+        }
+
+        &:nth-child(even) {
+          background-color: #B8B8B8;
         }
       }
     }
